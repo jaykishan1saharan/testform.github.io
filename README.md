@@ -14,9 +14,9 @@ It help streamline data collection while ensuring accuracy and consistency in re
 
 ---
 **Jaykishan Saharan**
-[GitHub] | [LinkedIn]
+[GitHub](https://github.com/jaykishan1saharan) | [LinkedIn](www.linkedin.com/in/jaikishan-saharan-a67485327)
 
-
+---
 # 🙌 Thanks for Visiting!
 If you like this project, please consider giving it a ⭐ on GitHub!  
 It helps others discover the project and keeps me motivated.
