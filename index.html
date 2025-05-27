@@ -22,11 +22,25 @@
         color: black;
         background-color: azure;
     }
+        button{
+            padding: 10px;
+            font-size: larger;
+            border: none;
+            cursor: pointer;
+        }
+        .submit-btn {
+            background-color: green;
+            color: white;
+        }
+        .reset-btn {
+            background-color: brown;
+            color: white;
+        }
     </style>
 
 </head>
 <body style="background-image: linear-gradient(green,yellow,purple);">
-    <form action="mailto:jaikishansaharan@gmail.com" method="post" enctype="text/plain">
+    <form id="test_form">
             <h1>Test form</h1>
             <hr size="5" color="black" >
             <b>Full name:</b> <br>
@@ -89,7 +103,9 @@
                 </tr>
             </table>
             <br>
-            <input type="submit" style="background-image: linear-gradient(green,yellow,purple); height: 50px; width: 100px; font-size: larger; font: bold;"> <input type="reset" style="background-color: brown; height: 50px; width: 100px; font-size: larger; font: bold;"> <button style="height: 50px; background-color:blue; width: 100px; font-size: larger; font: bold;">Print</button>
+            <button type="submit" class="submit-btn">Send via WhatsApp</button>
+            <button type="reset" class="reset-btn">Reset</button>        
     </form>
+    <script src="script_testform.js"></script> <!-- Linking JavaScript file -->
 </body>
 </html>
